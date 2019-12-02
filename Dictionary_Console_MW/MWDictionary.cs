@@ -46,7 +46,7 @@ namespace Dictionary_Console_MW
                 dynamic TheParsedJSON = JsonConvert.DeserializeObject(TheJSONObject);
                 Console.WriteLine(TheParsedJSON);
                 var test=TheParsedJSON[0]["shortdef"][0];
-                var test2 = TheParsedJSON[1]["shortdef"][0];
+                Console.WriteLine(test);
                 //Console.WriteLine(TheJSONObject);
             }
 
